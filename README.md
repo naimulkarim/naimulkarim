@@ -1,5 +1,5 @@
 # Hi, I'm Naimul Karim 👋  
-**Full Stack Software Engineer | .NET | Angular | Cloud | Distributed Systems**
+**Full Stack Software Engineer | C# .NET | Python | Angular | Cloud | Distributed Systems**
 
 📍 Canada  
 📧 naimulnca@gmail.com  
