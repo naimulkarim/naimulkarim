@@ -33,7 +33,7 @@ I specialize in **.NET, Angular, microservices, and cloud-native architectures**
 ## 🛠️ Tech Stack
 
 **Backend**
-- C#, .NET, .NET Core, ASP.NET Web API  
+- C#, Python, .NET, .NET Core, ASP.NET Web API  
 - Entity Framework Core, ADO.NET  
 - Node.js  
 
