@@ -91,6 +91,59 @@ A unified abstraction layer for managing secrets across multiple cloud providers
 
 ---
 
+### 🔹 Dead Code Detector — AI-Powered VS Code Extension
+📅 Nov 2025 – Dec 2025
+A VS Code extension that uses Claude AI (Anthropic) to detect dead code that traditional linters miss — including unreachable business logic, unused APIs, and obsolete feature flags.
+
+**What it detects:**
+- Unreachable logic (code after returns, impossible conditions)
+- Unused APIs and orphaned exported functions
+- Obsolete feature flags hardcoded to true/false
+
+**Key Features:**
+- Inline editor diagnostics with squiggles for flagged code
+- Filterable side panel with jump-to-line navigation
+- Catches semantic dead code beyond what static linters detect
+- Powered by Anthropic Claude API for context-aware analysis
+
+**Tech Stack:** TypeScript, VS Code Extension API, Anthropic Claude API
+
+---
+
+### 🔹 NotificationService (.NET 8)
+📅 Aug 2024 – Dec Present
+A production-ready multi-channel notification service for delivering Email, SMS, and Push notifications at scale using async message queuing and parallel channel dispatch.
+
+**Key Features:**
+- Multi-channel delivery across Email, SMS, and Push simultaneously
+- RabbitMQ message queue with dead-letter and retry support
+- Dynamic template engine with Scriban and per-channel caching
+- Per-recipient sliding window rate limiting
+- Parallel fan-out dispatch via Task.WhenAll
+- Containerized with Docker Compose and GitHub Actions CI
+
+**Tech Stack:** .NET 8, RabbitMQ, MailKit, Twilio, Firebase FCM, Scriban, OpenTelemetry, Docker
+🔗 https://github.com/naimulkarim/NotificationService
+
+---
+
+### 🔹 Event Ticketing System
+📅 Jan 2025 – Nov 2025
+A Cloud-Native Event Ticketing System built with Domain-Driven Design, Event-Driven Architecture, and CQRS patterns in .NET 8.
+
+**Key Features:**
+- Domain-Driven Design with bounded contexts and aggregates
+- CQRS pattern separating read and write models
+- Event-driven architecture with async messaging
+- Cloud-native deployment and infrastructure
+- Eventual consistency across distributed services
+- Scalable microservices architecture
+
+**Tech Stack:** .NET 8, DDD, CQRS, Event-Driven Architecture
+🔗 https://github.com/naimulkarim/EventTicketingSystem
+
+---
+
 ### 🔹 Orchestrated Analytics (OA)
 📅 Dec 2020 – Jun 2022  
 
